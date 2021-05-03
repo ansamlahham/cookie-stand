@@ -1,5 +1,5 @@
 'use strict'
-let hours = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm'];
+const hours = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm'];
 
 let cookiesofSeattle = {
     location : 'Seattle',
@@ -14,7 +14,7 @@ randomCustomer : function (){
    let  randomCount=Math.random() * range + cookiesofSeattle.min;
      return Math.ceil(randomCount);
  },
-    
+
         hourSales : function(){
         for (let i=0;i<hours.length;i++){
            
