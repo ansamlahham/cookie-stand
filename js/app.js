@@ -185,3 +185,32 @@ function theFooter() {
     
 
 theFooter();
+
+let NewCookieStandForm = document.getElementById('NewCookieStandForm');
+NewCookieStandForm.addEventListener('submit' , saver);
+
+function saver(event) {
+    event.preventDefault();
+    // console.log('hi', event);
+  let Location=event.target.Location.value;
+//   console.log(Location);
+let MinimunNumberofCustomers=event.target.MinimunNumberofCustomers.value;
+let MaximunNumberofCustomers=event.target.MaximunNumberofCustomers.value;
+let AvaregeCookiesSale=event.target.AvaregeCookiesSale.value;
+
+
+  let addedShop= new Shop (Location, MinimunNumberofCustomers, MaximunNumberofCustomers, AvaregeCookiesSale);
+
+  addedShop.numcookiesPerHour();
+  addedShop.numcustomersPerHour();
+  addedShop.render();
+
+  let container =document.getElementById('parent');
+  container.textContent = '';
+  for (let index = 0; index < Shops.length; index++) {
+      Shops[index].numcookiesPerHour();
+      Shops[index].numcustomersPerHour();
+      Shops[index].render();
+      
+  }
+}
