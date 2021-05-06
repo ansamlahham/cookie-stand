@@ -1,7 +1,122 @@
-table,
-th, 
-td {
 
-    border: 1px solid #de8971;
-    color: #87a7b3;
+body{
+    background-color: #eeb76b;
 }
+
+header h1{
+ font-family: Helvetica;
+ font-size: 25px;  
+ color: #310b0b; 
+ padding-left: 400px;
+ font-weight: bold;
+ padding-top: 10px;
+ padding-bottom: 10px;
+
+ background-color: #9c3d54;
+ 
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #9c3d54;
+    font-family : Helvetica;
+    float :center;
+    padding: 0px;
+    font-size :20px;
+    display :inline;    
+    font-weight: bold;
+    float:left;
+    margin :30px
+}
+#salmonphoto{
+    width: 20%;
+    float: right;
+    margin-right: 200px;
+    padding-top: 40px;
+
+}
+ol li {
+    color: #310b0b;
+    font-size: 18px;
+    font-family: cursive;
+    float: center;
+
+    padding-left: 10px;
+
+}
+main h3{
+    color: rgb(240, 235, 235);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+div img {
+
+    margin-left: 500px;
+    padding-top: 20px;
+    width: 100px;
+  
+}
+div h5 {
+
+    color: rgb(240, 235, 235);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+main p{
+    padding-left: 50px ;
+    position :absolute;
+    color: #9c3d54;
+    font-size: 23px;
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 70%;
+    float: right;
+    top: 400px;
+    text-align: justify;
+}
+article img{
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 300px;
+    padding-left: 500px;
+    
+}
+article p {
+    color: rgb(240, 235, 235);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    bottom: 13px;
+
+}
+main section img{
+
+margin-left: 5px;
+padding-top: 20px;
+width: 90px;
+display: inline;
+margin-right: 0px;
+    
+}
+section h4{
+    font-size: 20px;
+    font-family :cursive;
+    color: rgb(240, 235, 235);
+    padding-top: 15px;
+ font-weight: bold;
+}
+
+footer{
+    background-color: #9c3d54;
+}
+
+
