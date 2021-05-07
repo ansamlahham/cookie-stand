@@ -205,7 +205,7 @@ let newshop= new Shop (location, minNum, maxNum, avgCookies);
 table.deleteRow(table.rows.length -1);
   newshop.numcookiesPerHour();
   newshop.numcustomersPerHour();
-  console.log(newshop.numcookiesPerHour);
+//   console.log(newshop.numcookiesPerHour);
   newshop.render();
   NewCookieStandForm.reset();
   
