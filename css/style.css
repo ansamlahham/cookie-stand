@@ -1,7 +1,5 @@
-table,
-th, 
-td {
 
+table td ,th{
     border: 3px solid #3f442f;
     color: #8e9775;
     font-weight: bolder;
@@ -156,6 +154,92 @@ main p{
     /* top: 400px; */
     text-align: justify;
 }
+
+body{
+    background-color :aliceblue;
+
+}
+
+header h1{
+ font-family: Helvetica;
+ font-size: 25px;  
+ color: #310b0b; 
+ padding-left: 400px;
+ font-weight: bold;
+ padding-top: 20px;
+ padding-bottom: 20px;
+
+ background-color: #9c3d54;
+ 
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #9c3d54;
+    font-family : Helvetica;
+    float :center;
+    padding: 0px;
+    font-size :22px;
+    display :inline;    
+    font-weight: bold;
+    float:left;
+    margin :15px;
+}
+#salmonphoto{
+    width: 20%;
+    float: right;
+    margin-right: 100px;
+    padding-top: 40px;
+
+}
+ol li {
+    color: #310b0b;
+    font-size: 18px;
+    font-family: cursive;
+    float: center;
+
+    padding-left: 10px;
+
+}
+main h3{
+    color: rgb(41, 7, 7);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+div img {
+
+    margin-left: 500px;
+    padding-top: 20px;
+    width: 100px;
+  
+}
+div h5 {
+
+    color: rgb(39, 3, 3);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+main p{
+    padding-left: 10px ;
+    position :absolute;
+    color: #9c3d54;
+    font-size: 23px;
+    font-family: Helvetica;
+    font-weight: bold;
+    /* width: 70%; */
+    float: right;
+    /* top: 400px; */
+    text-align: justify;
+}
+
 article img{
 
     padding-bottom: 15px;
