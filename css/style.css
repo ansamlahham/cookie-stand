@@ -2,6 +2,40 @@ table,
 th, 
 td {
 
-    border: 1px solid #de8971;
-    color: #87a7b3;
+    border: 3px solid #3f442f;
+    color: #8e9775;
+    font-weight: bolder;
+    background-color: #f1aa96;
+    
+}
+
+body{
+    background-color: #faf2da;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 40px;
+}
+
+h2{
+    font-family: cursive;
+    color: #4a503d;
+}
+
+#NewCookieStandForm{
+    background-color:#faf3f3 ;
+    border-color: #da7f8f;
+    box-sizing: border-box;
+}
+
+input{
+
+    background-color: #8e9775;
+}
+
+label{
+    font-family: cursive;
+    font-size: 25px;
+    color:#4a503d ;
 }
