@@ -1,6 +1,6 @@
-*{
-    box-sizing: content-box;
-}
+/* *{
+    box-sizing: border-box;
+} */
 
 
 table td ,th{ 
@@ -14,9 +14,6 @@ table td ,th{
     background-color:#a6d6d6; 
 
     font-family: Helvetica; 
-
-     
-
 } 
 
  
@@ -60,9 +57,6 @@ h2{
 
 input{ 
 
- 
- 
-
     background-color: #8e9775; 
 
 } 
@@ -83,35 +77,6 @@ label{
  
  
  
- 
-
-header h1{ 
-
- font-family: Helvetica; 
-
- font-size: 40px;   
-
- color: #310b0b;  
-
- padding-left: 400px; 
-
- font-weight: bold; 
-
- padding-top: 20px; 
-
- padding-bottom: 20px; 
-
- 
- 
-
- background-color: #9c3d54; 
-
-  
-
- 
- 
-
-} 
 
  
  
@@ -135,17 +100,9 @@ header h1{
 ol li { 
 
     color: #a58faa; 
-
-     
-
-    font-size: 18px; 
-
+    font-size: 14px; 
     font-family: Georgia; 
-
-    float: center; 
-
-font-weight: bold; 
-
+    font-weight: bold; 
     padding-left: 10px; 
 
  
@@ -174,8 +131,6 @@ main h3{
 
 div img { 
 
- 
- 
 
     margin-left: 500px; 
 
@@ -185,10 +140,7 @@ div img {
 
     float: right; 
 
- 
- 
 
-   
 
 } 
 
@@ -243,7 +195,6 @@ main p{
 
 header h1{ 
 
- font-family: Helvetica; 
 
  font-size: 40px;   
 
@@ -271,8 +222,6 @@ header h1{
 header nav ul li a{ 
 
     text-decoration: none; 
-
- 
  
 
     color: #907fa4; 
