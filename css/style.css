@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 
 table td ,th{ 
@@ -251,7 +249,9 @@ header nav ul li{
 
  
  
- 
+ #parent {
+     position: relative;
+ }
  
  
 
