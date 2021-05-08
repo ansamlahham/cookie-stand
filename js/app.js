@@ -193,7 +193,8 @@ NewCookieStandForm.addEventListener('submit' ,submitsaver);
 
 function submitsaver(event) {
     event.preventDefault();
-    
+
+    table.deleteRow(table.rows.length -1);
 let location=event.target.location.value;
 let minNum=event.target.minNum.value;
 let maxNum=event.target.maxNum.value;
@@ -201,14 +202,20 @@ let avgCookies=event.target.avgCookies.value;
 
 console.log(location,minNum,maxNum,avgCookies);
 
+
+
+let newshop= new Shop (location, minNum, maxNum, avgCookies ,[],[],0);
+
 let newshop= new Shop (location, minNum, maxNum, avgCookies ,[],[],0);
 table.deleteRow(table.rows.length -1);
+
 
   newshop.numcustomersPerHour();
   newshop.numcookiesPerHour();
 //   console.log(newshop.numcookiesPerHour);
   newshop.render();
   NewCookieStandForm.reset();
+
   
 }
 
