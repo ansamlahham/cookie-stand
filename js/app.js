@@ -201,18 +201,19 @@ let avgCookies=event.target.avgCookies.value;
 
 console.log(location,minNum,maxNum,avgCookies);
 
-let newshop= new Shop (location, minNum, maxNum, avgCookies);
+let newshop= new Shop (location, minNum, maxNum, avgCookies ,[],[],0);
 table.deleteRow(table.rows.length -1);
-  newshop.numcookiesPerHour();
+
   newshop.numcustomersPerHour();
+  newshop.numcookiesPerHour();
 //   console.log(newshop.numcookiesPerHour);
   newshop.render();
   NewCookieStandForm.reset();
   
-  theFooter();
 }
 
 
+theFooter();
   
 
  

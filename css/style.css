@@ -27,6 +27,8 @@ h2{
     box-sizing: border-box;
 }
 
+
+
 input{
 
     background-color: #8e9775;
@@ -39,41 +41,6 @@ label{
 }
 
 
-body{
-    background-color: #faf2da;
-}
-
-h1{
-    font-family: cursive;
-    font-size: 40px;
-}
-
-h2{
-    font-family: cursive;
-    color: #4a503d;
-}
-
-#NewCookieStandForm{
-    background-color:#faf3f3 ;
-    border-color: #da7f8f;
-    box-sizing: border-box;
-}
-
-input{
-
-    background-color: #8e9775;
-}
-
-label{
-    font-family: cursive;
-    font-size: 25px;
-    color:#4a503d ;
-}
-
-body{
-    background-color :aliceblue;
-
-}
 
 header h1{
  font-family: Helvetica;
@@ -88,18 +55,7 @@ header h1{
  
 
 }
-header nav ul li a{
-    text-decoration: none;
-    color: #9c3d54;
-    font-family : Helvetica;
-    float :center;
-    padding: 0px;
-    font-size :22px;
-    display :inline;    
-    font-weight: bold;
-    float:left;
-    margin :15px;
-}
+
 #salmonphoto{
     width: 20%;
     float: right;
@@ -177,68 +133,15 @@ header nav ul li a{
     text-decoration: none;
     color: #9c3d54;
     font-family : Helvetica;
-    float :center;
-    padding: 0px;
-    font-size :22px;
+    /* float :center; */
+    padding: 10px;
+    font-size :18px;
     display :inline;    
     font-weight: bold;
     float:left;
-    margin :15px;
-}
-#salmonphoto{
-    width: 20%;
-    float: right;
-    margin-right: 100px;
-    padding-top: 40px;
-
-}
-ol li {
-    color: #310b0b;
-    font-size: 18px;
-    font-family: cursive;
-    float: center;
-
-    padding-left: 10px;
-
-}
-main h3{
-    color: rgb(41, 7, 7);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    padding-top: 50px;
-    padding-left: 10px;
+ 
 }
 
-div img {
-
-    margin-left: 500px;
-    padding-top: 20px;
-    width: 100px;
-  
-}
-div h5 {
-
-    color: rgb(39, 3, 3);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    padding-top: 50px;
-    padding-left: 10px;
-}
-
-main p{
-    padding-left: 10px ;
-    position :absolute;
-    color: #9c3d54;
-    font-size: 23px;
-    font-family: Helvetica;
-    font-weight: bold;
-    /* width: 70%; */
-    float: right;
-    /* top: 400px; */
-    text-align: justify;
-}
 
 article img{
 
@@ -291,8 +194,4 @@ footer p {
     color: thistle;
     font-size: 25px;
     font-family :serif;
-}
-table ,td, th{
-    color:#9c3d54;
-    border: 1px solid black;
 }
