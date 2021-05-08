@@ -1,20 +1,21 @@
+/* *{
+    box-sizing: border-box;
+} */
+
 
 table td ,th{
     border: 3px solid #3f442f;
     color: #8e9775;
     font-weight: bolder;
-    background-color: #f1aa96;
+    background-color:#a6d6d6;
+    font-family: Helvetica;
     
 }
 
 body{
-    background-color: #faf2da;
+    background-color:#ededd0;
 }
 
-h1{
-    font-family: cursive;
-    font-size: 40px;
-}
 
 h2{
     font-family: cursive;
@@ -26,6 +27,8 @@ h2{
     border-color: #da7f8f;
     box-sizing: border-box;
 }
+
+
 
 input{
 
@@ -39,45 +42,10 @@ label{
 }
 
 
-body{
-    background-color: #faf2da;
-}
-
-h1{
-    font-family: cursive;
-    font-size: 40px;
-}
-
-h2{
-    font-family: cursive;
-    color: #4a503d;
-}
-
-#NewCookieStandForm{
-    background-color:#faf3f3 ;
-    border-color: #da7f8f;
-    box-sizing: border-box;
-}
-
-input{
-
-    background-color: #8e9775;
-}
-
-label{
-    font-family: cursive;
-    font-size: 25px;
-    color:#4a503d ;
-}
-
-body{
-    background-color :aliceblue;
-
-}
 
 header h1{
  font-family: Helvetica;
- font-size: 25px;  
+ font-size: 40px;  
  color: #310b0b; 
  padding-left: 400px;
  font-weight: bold;
@@ -88,39 +56,30 @@ header h1{
  
 
 }
-header nav ul li a{
-    text-decoration: none;
-    color: #9c3d54;
-    font-family : Helvetica;
-    float :center;
-    padding: 0px;
-    font-size :22px;
-    display :inline;    
-    font-weight: bold;
-    float:left;
-    margin :15px;
-}
+
 #salmonphoto{
     width: 20%;
     float: right;
     margin-right: 100px;
     padding-top: 40px;
 
+
 }
 ol li {
-    color: #310b0b;
+    color: #a58faa;
+    
     font-size: 18px;
-    font-family: cursive;
+    font-family: Georgia;
     float: center;
-
+font-weight: bold;
     padding-left: 10px;
 
 }
 main h3{
-    color: rgb(41, 7, 7);
+    color:#907fa4;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: Georgia;
     padding-top: 50px;
     padding-left: 10px;
 }
@@ -130,16 +89,18 @@ div img {
     margin-left: 500px;
     padding-top: 20px;
     width: 100px;
+    float: right;
+
   
 }
 div h5 {
 
-    color: rgb(39, 3, 3);
+    color:#a58faa;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive;
+    font-family: Georgia;
     padding-top: 50px;
-    padding-left: 10px;
+    float: right;
 }
 
 main p{
@@ -155,90 +116,37 @@ main p{
     text-align: justify;
 }
 
-body{
-    background-color :aliceblue;
 
-}
 
 header h1{
  font-family: Helvetica;
- font-size: 25px;  
+ font-size: 40px;  
  color: #310b0b; 
  padding-left: 400px;
  font-weight: bold;
  padding-top: 20px;
  padding-bottom: 20px;
-
- background-color: #9c3d54;
+ font-family: 'Girassol', cursive;
+ background-color:#a6d6d6;
  
 
 }
 header nav ul li a{
     text-decoration: none;
-    color: #9c3d54;
-    font-family : Helvetica;
-    float :center;
-    padding: 0px;
-    font-size :22px;
-    display :inline;    
+    color: #907fa4;
+    font-family : Georgia;
+    font-size :18px;
     font-weight: bold;
-    float:left;
-    margin :15px;
-}
-#salmonphoto{
-    width: 20%;
-    float: right;
-    margin-right: 100px;
-    padding-top: 40px;
-
-}
-ol li {
-    color: #310b0b;
-    font-size: 18px;
-    font-family: cursive;
-    float: center;
-
-    padding-left: 10px;
-
-}
-main h3{
-    color: rgb(41, 7, 7);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    padding-top: 50px;
-    padding-left: 10px;
+    padding: 0 30px;
+ 
 }
 
-div img {
-
-    margin-left: 500px;
-    padding-top: 20px;
-    width: 100px;
-  
-}
-div h5 {
-
-    color: rgb(39, 3, 3);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    padding-top: 50px;
-    padding-left: 10px;
+header nav ul li{
+    display: inline-block;
+    padding: 0 30px;
 }
 
-main p{
-    padding-left: 10px ;
-    position :absolute;
-    color: #9c3d54;
-    font-size: 23px;
-    font-family: Helvetica;
-    font-weight: bold;
-    /* width: 70%; */
-    float: right;
-    /* top: 400px; */
-    text-align: justify;
-}
+
 
 article img{
 
@@ -249,10 +157,10 @@ article img{
     
 }
  #family {
-    color: rgb(34, 17, 17);
+    color: #907fa4;
     font-size: 20px;
     font-weight: bold;
-    font-family: cursive; 
+    font-family: Georgia; 
    
 
 }
@@ -267,14 +175,14 @@ margin-right: 0px;
 }
 section h4{
     font-size: 20px;
-    font-family :cursive;
-    color: rgb(17, 4, 4);
+    font-family :Georgia;
+    color: #907fa4;
     padding-top: 15px;
  font-weight: bold;
 }
 
 footer{
-    background-color: #9c3d54;
+    background-color: #a6d6d6;
 
 }
 
@@ -283,16 +191,12 @@ footer img {
 
    width: 5%;
    margin-top: 3px;
-   float: right;
+   float: left;
  
 }
 footer p {
     display: inline;
-    color: thistle;
     font-size: 25px;
-    font-family :serif;
-}
-table ,td, th{
-    color:#9c3d54;
-    border: 1px solid black;
+    font-family :'Girassol', cursive;
+    font-weight: bold;
 }
