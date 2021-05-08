@@ -1,208 +1,428 @@
-/* *{
-    box-sizing: border-box;
-} */
-
-
-table td ,th{
-    border: 3px solid #3f442f;
-    color: #8e9775;
-    font-weight: bolder;
-    background-color:#a6d6d6;
-    font-family: Helvetica;
-    
-}
-
-body{
-    background-color:#ededd0;
+*{
+    box-sizing: content-box;
 }
 
 
-h2{
-    font-family: cursive;
-    color: #4a503d;
-}
+table td ,th{ 
 
-#NewCookieStandForm{
-    background-color:#faf3f3 ;
-    border-color: #da7f8f;
-    box-sizing: border-box;
-}
+    border: 3px solid #3f442f; 
 
+    color: #8e9775; 
 
+    font-weight: bolder; 
 
-input{
+    background-color:#a6d6d6; 
 
-    background-color: #8e9775;
-}
+    font-family: Helvetica; 
 
-label{
-    font-family: cursive;
-    font-size: 25px;
-    color:#4a503d ;
-}
+     
 
+} 
 
-
-header h1{
- font-family: Helvetica;
- font-size: 40px;  
- color: #310b0b; 
- padding-left: 400px;
- font-weight: bold;
- padding-top: 20px;
- padding-bottom: 20px;
-
- background-color: #9c3d54;
+ 
  
 
-}
+body{ 
 
-#salmonphoto{
-    width: 20%;
-    float: right;
-    margin-right: 100px;
-    padding-top: 40px;
+    background-color:#ededd0; 
 
+} 
 
-}
-ol li {
-    color: #a58faa;
-    
-    font-size: 18px;
-    font-family: Georgia;
-    float: center;
-font-weight: bold;
-    padding-left: 10px;
+ 
+ 
+ 
 
-}
-main h3{
-    color:#907fa4;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Georgia;
-    padding-top: 50px;
-    padding-left: 10px;
-}
+h2{ 
 
-div img {
+    font-family: cursive; 
 
-    margin-left: 500px;
-    padding-top: 20px;
-    width: 100px;
-    float: right;
+    color: #4a503d; 
+
+} 
+
+ 
+ 
+
+#NewCookieStandForm{ 
+
+    background-color:#faf3f3 ; 
+
+    border-color: #da7f8f; 
+
+    box-sizing: border-box; 
+
+} 
+
+ 
+ 
+ 
+ 
+
+input{ 
+
+ 
+ 
+
+    background-color: #8e9775; 
+
+} 
+
+ 
+ 
+
+label{ 
+
+    font-family: cursive; 
+
+    font-size: 25px; 
+
+    color:#4a503d ; 
+
+} 
+
+ 
+ 
+ 
+ 
+
+header h1{ 
+
+ font-family: Helvetica; 
+
+ font-size: 40px;   
+
+ color: #310b0b;  
+
+ padding-left: 400px; 
+
+ font-weight: bold; 
+
+ padding-top: 20px; 
+
+ padding-bottom: 20px; 
+
+ 
+ 
+
+ background-color: #9c3d54; 
 
   
-}
-div h5 {
 
-    color:#a58faa;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Georgia;
-    padding-top: 50px;
-    float: right;
-}
-
-main p{
-    padding-left: 10px ;
-    position :absolute;
-    color: #9c3d54;
-    font-size: 23px;
-    font-family: Helvetica;
-    font-weight: bold;
-    /* width: 70%; */
-    float: right;
-    /* top: 400px; */
-    text-align: justify;
-}
-
-
-
-header h1{
- font-family: Helvetica;
- font-size: 40px;  
- color: #310b0b; 
- padding-left: 400px;
- font-weight: bold;
- padding-top: 20px;
- padding-bottom: 20px;
- font-family: 'Girassol', cursive;
- background-color:#a6d6d6;
+ 
  
 
-}
-header nav ul li a{
-    text-decoration: none;
+} 
 
-    color: #907fa4;
-    font-family : Georgia;
-    font-size :18px;
-    font-weight: bold;
-    padding: 0 30px;
  
-}
+ 
 
-header nav ul li{
-    display: inline-block;
-    padding: 0 30px;
-}
+#salmonphoto{ 
 
+    width: 20%; 
 
+    float: right; 
 
+    margin-right: 100px; 
 
-article img{
+    padding-top: 40px; 
 
-    padding-bottom: 15px;
-    padding-top: 15px;
-    width: 300px;
-    padding-left: 500px;
-    
-}
- #family {
-    color: #907fa4;
-    font-size: 20px;
-    font-weight: bold;
+ 
+ 
+ 
+
+} 
+
+ol li { 
+
+    color: #a58faa; 
+
+     
+
+    font-size: 18px; 
+
     font-family: Georgia; 
+
+    float: center; 
+
+font-weight: bold; 
+
+    padding-left: 10px; 
+
+ 
+ 
+
+} 
+
+main h3{ 
+
+    color:#907fa4; 
+
+    font-size: 20px; 
+
+    font-weight: bold; 
+
+    font-family: Georgia; 
+
+    padding-top: 50px; 
+
+    padding-left: 10px; 
+
+} 
+
+ 
+ 
+
+div img { 
+
+ 
+ 
+
+    margin-left: 500px; 
+
+    padding-top: 20px; 
+
+    width: 100px; 
+
+    float: right; 
+
+ 
+ 
+
    
 
-}
-main section img{
+} 
 
-margin-left: 5px;
-padding-top: 20px;
-width: 90px;
-display: inline;
-margin-right: 0px;
-    
-}
-section h4{
-    font-size: 20px;
-    font-family :Georgia;
-    color: #907fa4;
-    padding-top: 15px;
- font-weight: bold;
-}
+div h5 { 
 
-footer{
-    background-color: #a6d6d6;
-
-}
-
-footer img {
-
-
-   width: 5%;
-   margin-top: 3px;
-   float: left;
  
-}
-footer p {
-    display: inline;
-    font-size: 25px;
+ 
 
-    font-family :'Girassol', cursive;
-    font-weight: bold;
+    color:#a58faa; 
 
-    font-family :serif;
+    font-size: 20px; 
 
-}
+    font-weight: bold; 
+
+    font-family: Georgia; 
+
+    padding-top: 50px; 
+
+    float: right; 
+
+} 
+
+ 
+ 
+
+main p{ 
+
+    padding-left: 10px ; 
+
+    position :absolute; 
+
+    color: #9c3d54; 
+
+    font-size: 23px; 
+
+    font-family: Helvetica; 
+
+    font-weight: bold; 
+
+    float: right; 
+
+    
+
+    text-align: justify; 
+
+} 
+
+ 
+ 
+ 
+ 
+
+header h1{ 
+
+ font-family: Helvetica; 
+
+ font-size: 40px;   
+
+ color: #310b0b;  
+
+ padding-left: 400px; 
+
+ font-weight: bold; 
+
+ padding-top: 20px; 
+
+ padding-bottom: 20px; 
+
+ font-family: 'Girassol', cursive; 
+
+ background-color:#a6d6d6; 
+
+  
+
+ 
+ 
+
+} 
+
+header nav ul li a{ 
+
+    text-decoration: none; 
+
+ 
+ 
+
+    color: #907fa4; 
+
+    font-family : Georgia; 
+
+    font-size :18px; 
+
+    font-weight: bold; 
+
+    padding: 0 30px; 
+
+  
+
+} 
+
+ 
+ 
+
+header nav ul li{ 
+
+    display: inline-block; 
+
+    padding: 0 30px; 
+
+} 
+
+ 
+ 
+ 
+ 
+ 
+
+article img{ 
+
+ 
+ 
+
+    padding-bottom: 15px; 
+
+    padding-top: 15px; 
+
+    width: 300px; 
+
+    padding-left: 500px; 
+
+     
+
+} 
+
+ #family { 
+
+    color: #907fa4; 
+
+    font-size: 20px; 
+
+    font-weight: bold; 
+
+    font-family: Georgia;  
+
+    
+
+ 
+ 
+
+} 
+
+main section img{ 
+
+ 
+ 
+
+margin-left: 5px; 
+
+padding-top: 20px; 
+
+width: 90px; 
+
+display: inline; 
+
+margin-right: 0px; 
+
+     
+
+} 
+
+section h4{ 
+
+    font-size: 20px; 
+
+    font-family :Georgia; 
+
+    color: #907fa4; 
+
+    padding-top: 15px; 
+
+ font-weight: bold; 
+
+} 
+
+ 
+ 
+
+footer{ 
+
+    background-color: #a6d6d6; 
+
+ 
+ 
+
+} 
+
+ 
+ 
+
+footer img { 
+
+ 
+ 
+ 
+
+   width: 5%; 
+
+   margin-top: 3px; 
+
+   float: left; 
+
+  
+
+} 
+
+footer p { 
+
+    display: inline; 
+
+    font-size: 25px; 
+
+    font-family :'Girassol', cursive; 
+
+    font-weight: bold; 
+
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
