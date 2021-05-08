@@ -206,10 +206,6 @@ console.log(location,minNum,maxNum,avgCookies);
 
 let newshop= new Shop (location, minNum, maxNum, avgCookies ,[],[],0);
 
-let newshop= new Shop (location, minNum, maxNum, avgCookies ,[],[],0);
-table.deleteRow(table.rows.length -1);
-
-
   newshop.numcustomersPerHour();
   newshop.numcookiesPerHour();
 //   console.log(newshop.numcookiesPerHour);
