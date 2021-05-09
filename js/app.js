@@ -57,8 +57,10 @@ lima.numcookiesPerHour();
 let parent = document.getElementById('parent');
 console.log(parent);
 
+
 let table = document.createElement('table');
 parent.appendChild(table);
+table.setAttribute('id','tableInfo')
 
 function theHeader() {
     let headerRow = document.createElement('tr');
@@ -165,18 +167,16 @@ function theFooter() {
     footerRow.appendChild(footerTh);
     footerTh.textContent='Totals';
 
-let megaTotal = 0 ;
-        for (let i = 0; i < hours.length; i++) {
-        let totalCookies = 0;
-            for (let j = 0; j < Shops.length; j++) {
-                totalCookies+=Shops[j].cookiesPerHour[i];
-                
-        }
+let footermegaThTotal =document.createElement('th');
+    footerRow.appendChild(footermegaThTotal);
+footermegaThTotal.textContent=megaTotal;
+    }
         
-        megaTotal+=totalCookies
-        let footerThTotal =document.createElement('th');
-        footerRow.appendChild(footerThTotal);
-    footerThTotal.textContent=totalCookies;
+
+let NewCookieStandForm = document.getElementById('NewCookieStandForm');
+
+NewCookieStandForm.addEventListener('submit' ,submitsaver);
+
 
 
     }
@@ -191,4 +191,3 @@ theFooter();
 
 
     
-
