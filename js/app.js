@@ -165,23 +165,30 @@ function theFooter() {
     footerRow.appendChild(footerTh);
     footerTh.textContent='Totals';
 
-
+let megaTotal = 0 ;
         for (let i = 0; i < hours.length; i++) {
         let totalCookies = 0;
             for (let j = 0; j < Shops.length; j++) {
                 totalCookies+=Shops[j].cookiesPerHour[i];
-            
+                
         }
+        
+        megaTotal+=totalCookies
         let footerThTotal =document.createElement('th');
         footerRow.appendChild(footerThTotal);
     footerThTotal.textContent=totalCookies;
 
-    
-        }
+
     }
+    let footermegaThTotal =document.createElement('th');
+    footerRow.appendChild(footermegaThTotal);
+footermegaThTotal.textContent=megaTotal;
+    }
+
         
+theFooter();
+
 
 
     
 
-theFooter();
