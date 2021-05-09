@@ -24,7 +24,6 @@ Shop.prototype.numcustomersPerHour= function () {
     for (let i=0;i < hours.length;i++){
         this.customersPerHour.push(randomNumber(this.minNum,this.maxNum));
     }
-//    console.log(this.customersPerHour);
 }
 
 Shop.prototype.numcookiesPerHour = function(){
@@ -207,7 +206,6 @@ newTable.removeChild(newTable.lastChild);
 console.log(newTable);
   newshop.numcustomersPerHour();
   newshop.numcookiesPerHour();
-//   console.log(newshop.numcookiesPerHour);
   newshop.render();
   NewCookieStandForm.reset();
   theFooter();
