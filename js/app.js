@@ -57,8 +57,10 @@ lima.numcookiesPerHour();
 let parent = document.getElementById('parent');
 console.log(parent);
 
+
 let table = document.createElement('table');
 parent.appendChild(table);
+table.setAttribute('id','tableInfo')
 
 function theHeader() {
     let headerRow = document.createElement('tr');
@@ -164,7 +166,7 @@ function theFooter() {
     let footerTh=document.createElement('th');
     footerRow.appendChild(footerTh);
     footerTh.textContent='Totals';
-
+    let megaTotal = 0 ;
 
         for (let i = 0; i < hours.length; i++) {
         let totalCookies = 0;
@@ -172,20 +174,17 @@ function theFooter() {
                 totalCookies+=Shops[j].cookiesPerHour[i];
             
         }
+        megaTotal+=totalCookies
         let footerThTotal =document.createElement('th');
         footerRow.appendChild(footerThTotal);
     footerThTotal.textContent=totalCookies;
-
     
-        }
+}
+let footermegaThTotal =document.createElement('th');
+    footerRow.appendChild(footermegaThTotal);
+footermegaThTotal.textContent=megaTotal;
     }
         
-
-
-    
-
-theFooter();
-
 
 let NewCookieStandForm = document.getElementById('NewCookieStandForm');
 
@@ -201,15 +200,17 @@ let avgCookies=event.target.avgCookies.value;
 
 console.log(location,minNum,maxNum,avgCookies);
 
-let newshop= new Shop (location, minNum, maxNum, avgCookies ,[],[],0);
-table.deleteRow(table.rows.length -1);
+let newshop= new Shop (location, minNum, maxNum, avgCookies);
 
+let newTable = document.getElementById('tableInfo');
+newTable.removeChild(newTable.lastChild);
+console.log(newTable);
   newshop.numcustomersPerHour();
   newshop.numcookiesPerHour();
 //   console.log(newshop.numcookiesPerHour);
   newshop.render();
   NewCookieStandForm.reset();
-  
+  theFooter();
 }
 
 
