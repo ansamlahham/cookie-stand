@@ -179,27 +179,27 @@ let NewCookieStandForm = document.getElementById('NewCookieStandForm');
 
 NewCookieStandForm.addEventListener('submit', submitsaver);
 
-// function submitsaver(event) {
-//     event.preventDefault();
+function submitsaver(event) {
+    event.preventDefault();
 
-//     let location = event.target.location.value;
-//     let minNum = event.target.minNum.value;
-//     let maxNum = event.target.maxNum.value;
-//     let avgCookies = event.target.avgCookies.value;
+    let location = event.target.location.value;
+    let minNum = event.target.minNum.value;
+    let maxNum = event.target.maxNum.value;
+    let avgCookies = event.target.avgCookies.value;
 
-//     console.log(location, minNum, maxNum, avgCookies);
+    console.log(location, minNum, maxNum, avgCookies);
 
-//     let newshop = new Shop(location, minNum, maxNum, avgCookies);
+    let newshop = new Shop(location, minNum, maxNum, avgCookies);
 
-//     let newTable = document.getElementById('tableInfo');
-//     newTable.removeChild(newTable.lastChild);
-//     console.log(newTable);
-//     newshop.numcustomersPerHour();
-//     newshop.numcookiesPerHour();
-//     newshop.render();
-//     NewCookieStandForm.reset();
+    let newTable = document.getElementById('tableInfo');
+    newTable.removeChild(newTable.lastChild);
+    console.log(newTable);
+    newshop.numcustomersPerHour();
+    newshop.numcookiesPerHour();
+    newshop.render();
+    NewCookieStandForm.reset();
 
-// }
+}
 
 // let footermegaThTotal = document.createElement('th');
 // footerRow.appendChild(footermegaThTotal);
