@@ -113,20 +113,7 @@ function theFooter() {
     let footerTh=document.createElement('th');
     footerRow.appendChild(footerTh);
     footerTh.textContent='Totals';
-    let megaTotal = 0 ;
 
-        for (let i = 0; i < hours.length; i++) {
-        let totalCookies = 0;
-            for (let j = 0; j < Shops.length; j++) {
-                totalCookies+=Shops[j].cookiesPerHour[i];
-            
-        }
-        megaTotal+=totalCookies
-        let footerThTotal =document.createElement('th');
-        footerRow.appendChild(footerThTotal);
-    footerThTotal.textContent=totalCookies;
-    
-}
 let footermegaThTotal =document.createElement('th');
     footerRow.appendChild(footermegaThTotal);
 footermegaThTotal.textContent=megaTotal;
@@ -136,6 +123,7 @@ footermegaThTotal.textContent=megaTotal;
 let NewCookieStandForm = document.getElementById('NewCookieStandForm');
 
 NewCookieStandForm.addEventListener('submit' ,submitsaver);
+
 
 function submitsaver(event) {
     event.preventDefault();
@@ -160,7 +148,15 @@ console.log(newTable);
 }
 
 
-theFooter();
-  
+    }
+    let footermegaThTotal =document.createElement('th');
+    footerRow.appendChild(footermegaThTotal);
+footermegaThTotal.textContent=megaTotal;
+    }
 
- 
+        
+theFooter();
+
+
+
+    
